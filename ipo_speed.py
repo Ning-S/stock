@@ -95,8 +95,6 @@ class IPO_Speed():
 
 
 
-
-
 def main():
     obj=IPO_Speed()
     obj.draw()
