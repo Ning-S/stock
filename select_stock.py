@@ -7,13 +7,14 @@ Contact: weigesysu@qq.com
 '''
 import tushare as ts
 import pandas as pd
-import os, sys, datetime, time, Queue, codecs
+import os, sys, datetime, time, codecs
 import numpy as np
 from toolkit import Toolkit
 from threading import Thread
 from pandas import Series
+from queue import Queue
 
-q = Queue.Queue()
+q = Queue()
 
 # 用来选股用的
 pd.set_option('max_rows', None)

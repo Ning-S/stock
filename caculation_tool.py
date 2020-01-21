@@ -40,14 +40,14 @@ def percentage(open_price):
         print('{}\t-{}%->{}'.format(open_price,i,open_price*(1-0.01*i)))
 
 if __name__=="__main__":
-    ''''
+    
     obj=calculator_stock()
 
     code='300333'
-    start='2015-12-21'
+    start='2016-12-21'
     end='2017-04-14'
 
     obj.profit(start,end,code)
-    '''
+    
     #percentage(sys.args[1])
-    percentage(24.54)
+    #percentage(24.54)
