@@ -43,9 +43,9 @@ if __name__=="__main__":
     
     obj=calculator_stock()
 
-    code='300333'
-    start='2016-12-21'
-    end='2017-04-14'
+    code='600104'
+    start='2018-12-21'
+    end='2020-02-13'
 
     obj.profit(start,end,code)
     
